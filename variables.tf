@@ -29,6 +29,10 @@ variable "public_subnets" {
   }
 }
 
+variable "billing_code" {
+  type        = string
+  description = "(Required) Billing for network resources 3"
+}
 
 variable "environment" {
   default     = "development"
