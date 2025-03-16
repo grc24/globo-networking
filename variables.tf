@@ -31,7 +31,7 @@ variable "public_subnets" {
 
 
 variable "environment" {
-  default = "development"
+  default     = "development"
   description = "Define  env environment"
-  type = string
+  type        = string
 }
