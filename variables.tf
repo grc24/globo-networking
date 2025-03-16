@@ -30,7 +30,7 @@ variable "public_subnets" {
 }
 
 variable "billing_code" {
-  type = string
+  type        = string
   description = "(Required) Billing for network resources"
 }
 
