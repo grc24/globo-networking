@@ -3,7 +3,7 @@
 ##################################################################################
 output "vpc_id" {
   value       = module.main.vpc_id
-  description = "VPC ID"
+  description = "VPC id"
 }
 
 output "public_subnets" {
